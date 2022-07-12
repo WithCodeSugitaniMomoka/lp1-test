@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+/*header*/
+
+.header_wrapper {
+  width: 100%;
+  background-color: #62554e;
+  color: white;
+}
+
+.header_top {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header_nav ul {
+  width: 100%;
+  display: table;
+}
+
+.header_nav ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.header_nav ul li a {
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+}
+
+.header_nav ul li a:hover {
+  : solid 2px #fff;
+}
+
