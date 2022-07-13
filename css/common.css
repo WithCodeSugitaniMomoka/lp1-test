@@ -14,6 +14,9 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  margin: 10% auto;
+}
 
 a {
   text-decoration: none;
@@ -88,7 +91,7 @@ li {
 
 /*concept*/
 
-.concept {
+.section {
   display: flex;
   z-index: 1;
 }
@@ -99,12 +102,12 @@ li {
   background-color: #62554e;
 }
 
-
 .section_title {
   position: relative;
   display: flex;
   text-align: center;
-  margin: 2.5% auto;
+  margin: 2.5% 0 ;
+  font-size: 1.5em;
 }
 
 .section_title h1 {
@@ -119,5 +122,126 @@ li {
   width: 2em;
   top: 2rem;
   left: .5rem;
+}
+
+.concept_img_1 {
+  position: relative;
+  margin-bottom: 7.5%;
+}
+
+.concept_img_1::after{
+  content: "";
+  position: absolute;
+  background: url("/img/concept1.jpeg") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 80%;
+}
+
+.concept_img_2 {
+  position: relative;
+}
+
+.concept_img_2::after {
+  content: "";
+  position: absolute;
+  background: url("/img/concept2.jpg") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.concept_descript {
+  width: 40%;
+}
+
+.concept_descript_right {
+  position: relative;
+  top: 0%;
+  left: 60%;
+}
+
+.title {
+  margin-bottom: 7%;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+  font-size: 1.2;
+  line-height: 1.4;
+  font-weight: bold;
+  border-left:solid 3px #7C7C7C;
+  border-bottom: solid 1px #7C7C7C;
+}
+
+.txt p em {
+  display: block;
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
+.txt p {
+  color: #555;
+  line-height: 1.5;
+}
+
+
+/*menu*/
+
+.menu {
+  background: url(/img/menu.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.menu h2 {
+  border-color: #fff;
+}
+
+.frame_wrapper {
+  padding: 7.5%;
+  margin: 10% auto;
+  background-color: #003616;
+  border: solid 7px rgb(66, 39, 11);
+  border-radius: 3px;
+  color: #fff;
+}
+
+.frame {
+  width: 80%;
+  padding-left: 5%;
+}
+
+.txt_wrapper {
+  display: flex;
+}
+
+.txt_wrapper .txt {
+  padding: 0 2.5%;
+  line-height: 1.8;
+}
+
+
+/*news*/
+
+.news h2 {
+  margin: 10% 0 3% 0;
+}
+
+.news_wrapper strong {
+  display: block;
+}
+
+.news_wrapper span {
+  position: relative;
+  padding-left: 2em;
+}
+
+.news_wrapper span::before {
+  position: absolute;
+  content: "★";
+  top: 0;
+  left: .5em;
 }
 
