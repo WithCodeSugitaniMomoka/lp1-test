@@ -27,11 +27,12 @@ a {
 /*header*/
 
 .header_wrapper {
-  width: 100%;
-  position: fixed;
+  width: 95%;
   z-index: 4;
+  position: fixed;
   background-color: #62554e;
   color: white;
+  margin: 1% 0 0 5% ;
 }
 
 .header_inner {
@@ -292,6 +293,7 @@ a {
 .about .frame_wrapper {
   background-color: rgba(0, 0, 0, 0.6);
   border: none;
+  padding: 0;
 }
 
 .about .frame {
@@ -300,29 +302,36 @@ a {
   margin: 0 auto;
 }
 
+.frame_top {
+  padding-left: 10em;
+  padding-top: 7em;
+}
+
 .about .txt p {
   color: #fff;
-  margin: 1em auto;
+  margin-bottom: 1em;
+
 }
 
 .frame_bottom {
   position: absolute;
-  left: 25%;
   display: flex;
   margin: 0 auto;
-  padding: 5%;
   text-align: center;
+  padding: 0 30%;
+  padding-top: 3em;
 }
 
 .about .section_title h1 {
   border-color: #fff;
+  margin-left: 1.3em;
 }
 
 .button {
   padding: 1em;
   background-color: #fe9;
-  width: 35%;
-  margin: 1em auto;
+  width: 40%;
+  margin: 3em auto;
 }
 
 .button:hover {
