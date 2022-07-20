@@ -148,7 +148,7 @@ a {
 .concept_img_1::after{
   content: "";
   position: absolute;
-  background: url("/img/concept1.jpeg") no-repeat center;
+  background: url("../img/concept1.jpeg") no-repeat center;
   background-size: cover;
   top: 0;
   left: 50%;
@@ -163,7 +163,7 @@ a {
 .concept_img_2::after {
   content: "";
   position: absolute;
-  background: url("/img/concept2.jpg") no-repeat center;
+  background: url("../img/concept2.jpg") no-repeat center;
   background-size: cover;
   top: 0;
   right: 50%;
@@ -207,7 +207,7 @@ a {
 /*menu*/
 
 .menu {
-  background: url(/img/menu.jpg) no-repeat center;
+  background: url(../img/menu.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -281,7 +281,7 @@ a {
 
 .about_inner {
   position: relative;
-  background: url(/img/about.jpg) no-repeat center;
+  background: url(../img/about.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden;
   width: 93%;
