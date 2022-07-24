@@ -27,12 +27,11 @@ a {
 /*header*/
 
 .header_wrapper {
-  width: 95%;
+  width: 100%;
   z-index: 4;
   position: fixed;
   background-color: #62554e;
   color: white;
-  margin: 1% 0 0 5% ;
 }
 
 .header_inner {
